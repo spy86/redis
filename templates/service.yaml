@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "redis.fullname" . }}
+  namespace: {{ .Values.namespace.name }}
+  labels:
+    {{- include "redis.labels" . | nindent 4 }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+  - name: {{ .Values.service.name }}
+    port: {{ .Values.service.port }}
+  selector:
+    {{- include "redis.selectorLabels" . | nindent 4 }}
