@@ -4,7 +4,7 @@ Redis Helm Repository
 ## Usage
 
 ```
-helm repo add rabbitmq-stomp https://spy86.github.io/redis
+helm repo add redis https://spy86.github.io/redis
 ```
 
 More info on all options available in the official [README](https://github.com/spy86/redis/blob/main/README.md)
