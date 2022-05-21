@@ -1,6 +1,6 @@
 # redis
 
-![Version: 0.1.1](https://img.shields.io/badge/Version-0.1.1-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 6.0.16](https://img.shields.io/badge/AppVersion-6.0.16-informational?style=flat-square)
+![Version: 0.1.1](https://img.shields.io/badge/Version-0.1.1-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 6.0.8.9](https://img.shields.io/badge/AppVersion-6.0.8.9-informational?style=flat-square)
 
 A Helm chart for Redis.
 
@@ -17,8 +17,8 @@ A Helm chart for Redis.
 | affinity | object | `{}` | Configuration for affinity |
 | autoscaling | object | `{"enabled":false,"maxReplicas":100,"minReplicas":1,"targetCPUUtilizationPercentage":80,"targetMemoryUtilizationPercentage":80}` | Configuration for Autoscaling |
 | fullnameOverride | string | `""` | Overrides the fullname |
-| image | object | `{"pullPolicy":"Always","repository":"bitnami/redis","tag":"6.0.16"}` | Image to use for deploying |
-| image.tag | string | `"6.0.16"` | Overrides the image tag whose default is the chart appVersion. |
+| image | object | `{"pullPolicy":"Always","repository":"mcr.microsoft.com/oss/bitnami/redis","tag":"6.0.8.9"}` | Image to use for deploying |
+| image.tag | string | `"6.0.8.9"` | Overrides the image tag whose default is the chart appVersion. |
 | imagePullSecrets | list | `[]` | Secret for container registry |
 | nameOverride | string | `""` | Overrides the name |
 | namespace | object | `{"name":"default"}` | Configure default namespace |
