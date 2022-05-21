@@ -1,0 +1,21 @@
+apiVersion: v1
+entries:
+  redis:
+  - apiVersion: v2
+    appVersion: 6.0.16
+    created: "2022-05-21T09:50:46.72850184Z"
+    description: A Helm chart for Redis.
+    digest: 25d81981ef5d4c108c36be0b7e2fa460fe623c970a718d8a82154aed87ca4a78
+    home: https://redis.io/
+    icon: https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Redis_Logo.svg/2880px-Redis_Logo.svg.png
+    keywords:
+    - redis
+    - database
+    name: redis
+    sources:
+    - https://github.com/bitnami/bitnami-docker-redis
+    type: application
+    urls:
+    - https://spy86.github.io/redis/redis-0.1.1.tgz
+    version: 0.1.1
+generated: "2022-05-21T09:50:46.727556535Z"
