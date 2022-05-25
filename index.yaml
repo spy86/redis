@@ -3,9 +3,9 @@ entries:
   redis:
   - apiVersion: v2
     appVersion: 6.0.8.9
-    created: "2022-05-21T10:20:41.138278098Z"
+    created: "2022-05-25T14:40:25.121303809Z"
     description: A Helm chart for Redis.
-    digest: f4ad78dac8805c34c5411c3c3decb5dc260bc74bd58c08249c10d2a1cfaf1643
+    digest: 0e5c1bb1090fcc1ab5b4cf7b5d996f64237d16783bb877590a348b8ffd8ac129
     home: https://redis.io/
     icon: https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Redis_Logo.svg/2880px-Redis_Logo.svg.png
     keywords:
@@ -18,4 +18,4 @@ entries:
     urls:
     - https://spy86.github.io/redis/redis-0.1.1.tgz
     version: 0.1.1
-generated: "2022-05-21T10:20:41.13742998Z"
+generated: "2022-05-25T14:40:25.119405579Z"
