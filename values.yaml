@@ -56,3 +56,8 @@ nodeSelector: {}
 tolerations: []
 # -- Configuration for affinity
 affinity: {}
+# --  Auth configuration for REDIS
+redis:
+  auth:
+    enabled: yes
+    password: "P@ssw0rd_123"

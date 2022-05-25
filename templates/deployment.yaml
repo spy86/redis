@@ -34,3 +34,12 @@ spec:
             name: {{ .Values.service.name }}
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
+          env:
+            - name: ALLOW_EMPTY_PASSWORD
+              value: {{ ternary "no" "yes" .Values.redis.auth.enabled | quote }}
+            {{- if .Values.redis.auth.enabled }}
+            - name: REDIS_PASSWORD
+              value: {{ .Values.redis.auth.password }}
+            {{- end }}
+
+

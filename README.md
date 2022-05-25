@@ -25,6 +25,7 @@ A Helm chart for Redis.
 | nodeSelector | object | `{}` | Configuration for nodeSelector |
 | podAnnotations | object | `{}` | Additional annotations will be added to the pods of this component as well as to your Deployments or StatefulSets used to create the pods. |
 | podSecurityContext | object | `{}` | Pod SecurityContext settings |
+| redis | object | `{"auth":{"enabled":"yes","password":"P@ssw0rd_123"}}` | Auth configuration for REDIS |
 | replicaCount | int | `1` | Configure the replicas for the pods |
 | resources | object | `{"limits":{"cpu":"500m","memory":"2048M"},"requests":{"cpu":"20m","memory":"512Mi"}}` | Configuration for resources limits (CPU/MEM requests and limits) |
 | securityContext | object | `{}` | SecurityContext settings |
